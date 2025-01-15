@@ -106,7 +106,7 @@ grep: Comando para filtrar texto por renglon.
 tail: se va al final del archivo.
     tail -n 7 "your_file": Despliega las ultimas 7 lineas del archivo.
 
-head: se va al principio del archivo.
+#### head: se va al principio del archivo.
     head -n 7 "your_file": Despliega las primeras 7 lineas del archivo.
 
 cut: selecciona por columnas
