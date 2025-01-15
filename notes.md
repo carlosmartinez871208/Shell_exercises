@@ -113,6 +113,7 @@
 
 #### head: se va al principio del archivo.
     head -n 7 "your_file": Despliega las primeras 7 lineas del archivo.
+    line=$(head -n 1 "file_name": Extrae la primera linea del archivo "file_name" y la guarda en la variable line.
 
 #### cut: selecciona por columnas
     -c: Selecciona los caracteres que se le indique. cut -c 5,10 "your_file" // cut -c 7-25 files "your_file".
